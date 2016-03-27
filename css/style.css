@@ -62,31 +62,6 @@ body {
 .coder .coderweb {
   margin: 15px;
 }
-/* .jumbotron .page-header {
-  padding-top: 80px;
-  border: none;
-  color: #D1D1D1;
-  padding-bottom: 50px;
-} */
-/* .intro {
-  padding-bottom: 50px;
-}
-intro .row p{
-  
-  font-size: 18px;
-} */
-/* .intro .row h2 {
-  text-align: center;
-  padding: 20px;
-} */
-
-/*.intro .coderweb .btn {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-bottom: 5px;
-  border-radius: 10px;
-  font-size: 25px;
-}*/
 
 #sectorportfolio {
   height: auto;
@@ -102,10 +77,14 @@ intro .row p{
 .portfolio {
   width: 100%;
 }
-#contact {
-  height: auto;
-  padding-bottom: 50px;
+#sectcontact {
+  height: 500px;
   position: relative;
+}
+.contact {
+  top:50%;
+  position: relative;
+  transform:translateY(-50%);
 }
 .footer {
   position: absolute;
