@@ -11,17 +11,6 @@ body {
   
 }
 
-#introduction {
-
-}
-
-#sectportfolio {
-
-}
-
-#sectcontact {
-  
-}
 
 .navbar .navbar-brand {
   color: white;
@@ -41,50 +30,82 @@ body {
   border-radius: 5px;
 }
 
-.jumbotron {
+#jumboTop {
   text-align: center;
-  background-image: url("http://pryorbae.com/img/qwerty.jpg");
-  background-size: 100% auto;
+  /*shorthand for background ref and position*/
+  background: url("http://pryorbae.com/img/qwerty.jpg") 50% 0;
+  background-size: 100%;
+  margin: 0 auto
+  width: 100%;
+  padding: 100px;
   background-repeat: no-repeat;
+  position: relative;
   height: 500px;
 }
+#introduction {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    
+    
+}
 
-.jumbotron .page-header {
+.intro {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+/*  padding: 25px;*/
+  top: 50%;
+  position: relative;
+  transform: translateY(-50%);
+}
+.coder .coderweb {
+  margin: 15px;
+}
+/* .jumbotron .page-header {
   padding-top: 80px;
   border: none;
   color: #D1D1D1;
   padding-bottom: 50px;
-}
-.intro {
+} */
+/* .intro {
   padding-bottom: 50px;
 }
-.intro .row p{
+intro .row p{
   
   font-size: 18px;
-}
-.intro .row h2 {
+} */
+/* .intro .row h2 {
   text-align: center;
   padding: 20px;
-}
+} */
 
-.intro .coderweb .btn {
+/*.intro .coderweb .btn {
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 5px;
   border-radius: 10px;
   font-size: 25px;
-}
+}*/
 
-.portfolio {
+#sectorportfolio {
+  height: auto;
   margin-top: 10px;
   text-align: center;
-  padding-bottom: 50px;
+  /*padding-bottom: 50px;*/
+  position: relative;
+  width: 100%;
 }
 .portfolio h2{
   padding-bottom: 25px;
 }
-.contact {
+.portfolio {
+  width: 100%;
+}
+#contact {
+  height: auto;
   padding-bottom: 50px;
+  position: relative;
 }
 .footer {
   position: absolute;
