@@ -8,9 +8,7 @@ body {
 .navbar {
   background-color: rgba(45, 45, 45, 0.81);
   border: none;
-  
 }
-
 
 .navbar .navbar-brand {
   color: white;
@@ -35,7 +33,7 @@ body {
   /*shorthand for background ref and position*/
   background: url("http://pryorbae.com/img/qwerty.jpg") 50% 0;
   background-size: 100%;
-  margin: 0 auto
+  margin: 0 auto;
   width: 100%;
   padding: 100px;
   background-repeat: no-repeat;
@@ -46,8 +44,6 @@ body {
     width: 100%;
     height: 500px;
     margin: 0 auto;
-    
-    
 }
 
 .intro {
@@ -63,8 +59,14 @@ body {
   margin: 15px;
 }
 
+.btn {
+  margin-bottom: 2px;
+}
+.caption {
+  text-align: center;
+}
 #sectorportfolio {
-  height: auto;
+  height: 500px;
   margin-top: 10px;
   text-align: center;
   /*padding-bottom: 50px;*/
@@ -76,7 +78,9 @@ body {
 }
 .portfolio {
   width: 100%;
+  text-align: center;
 }
+
 #sectcontact {
   height: 500px;
   position: relative;
@@ -101,3 +105,9 @@ body {
   margin:20px 0;
 }
 
+@media (min-width: 1920px) {
+  .btn {
+    width:900px;
+  }
+  
+}
