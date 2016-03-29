@@ -107,6 +107,7 @@ body {
   margin:20px 0;
 }
 
+/*media breakpoint to account for buttons looking huge on ultrawide*/
 @media (min-width: 1920px) {
   .btn {
     width:900px;
