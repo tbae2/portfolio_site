@@ -44,6 +44,7 @@ body {
     width: 100%;
     height: 500px;
     margin: 0 auto;
+    background: url("http://pryorbae.com/img/qwerty.jpg") 50% 0;
 }
 
 .intro {
@@ -84,6 +85,7 @@ body {
 #sectcontact {
   height: 500px;
   position: relative;
+  background: url("http://pryorbae.com/img/qwerty.jpg") 50% 0;
 }
 .contact {
   top:50%;
